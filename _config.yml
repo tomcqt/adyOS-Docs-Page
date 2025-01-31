@@ -8,3 +8,5 @@ aux_links:
   adyOS Repo: https://git.tomcat.sh/adyos
   adyDocs Repo: https://git.tomcat.sh/adyos-docs-page
   adyPM Default Repository Repo: https://git.tomcat.sh/adyos-default-repo
+
+color_scheme: dark
