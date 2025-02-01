@@ -10,7 +10,7 @@ permalink: /commands/system
 ## system
 
 - Definition
-  - Basically the system settings. Requires superuser access through (`super`)[https://ady.tomcat.sh/commands/super]
+  - Basically the system settings. Requires superuser access through `super` <sub>[More on `super`.](https://ady.tomcat.sh/commands/super)</sub>
 - Usage
   - System Info
     - System Name
