@@ -11,5 +11,5 @@ aux_links:
 
 color_scheme: dark_with_purple
 
-favicon_ico: "./icon.ico"
-logo: "./icon.png"
+favicon_ico: "https://raw.githubusercontent.com/tomcqt/adyOS-Docs-Page/refs/heads/main/icon.ico"
+logo: "https://raw.githubusercontent.com/tomcqt/adyOS-Docs-Page/refs/heads/main/icon.png"
