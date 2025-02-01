@@ -1,5 +1,5 @@
 ---
-name: Echo
+title: Echo
 layout: default
 parent: Commands
 nav_order: 1

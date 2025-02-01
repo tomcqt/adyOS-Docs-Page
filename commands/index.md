@@ -1,5 +1,5 @@
 ---
-name: Commands
+title: Commands
 layout: default
 nav_order: 3
 ---
