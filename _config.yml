@@ -10,3 +10,6 @@ aux_links:
   adyPM Default Repository Repo: https://git.tomcat.sh/adyos-default-repo
 
 color_scheme: dark_with_purple
+
+favicon_ico: "./icon.ico"
+logo: "./icon.png"

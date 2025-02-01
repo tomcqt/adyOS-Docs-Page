@@ -3,6 +3,8 @@ title: Home
 layout: home
 ---
 
+# adyOS Documentation
+
 Welcome to the adyOS Docs!
 
 You can learn how to [install the operating system on your own computer], [run commands from the terminal], and more from these docs.
