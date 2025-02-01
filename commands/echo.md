@@ -3,6 +3,7 @@ title: Echo
 layout: default
 parent: Commands
 nav_order: 1
+permalink: /commands/echo
 ---
 
 # Command Definitions & Usage

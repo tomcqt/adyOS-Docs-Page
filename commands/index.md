@@ -2,6 +2,7 @@
 title: Commands
 layout: default
 nav_order: 3
+permalink: /commands
 ---
 
 # Command Definitions & Usage

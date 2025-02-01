@@ -3,6 +3,7 @@ title: System
 nav_order: 2
 parent: Commands
 layout: default
+permalink: /commands/system
 ---
 
 # Command Definitions & Usage
