@@ -1,5 +1,5 @@
 ---
-title: Install Guide
+title: Install
 layout: default
 ---
 
@@ -13,7 +13,7 @@ layout: default
 
 3. Enter the folder with `cd adyos`.
 4. Set everything up by running `npm i`.
-5. Make the scripts executable using `chmod +x bin/*`
+5. Make the scripts executable using `chmod +x bin/*`.
 6. Start it up!
 
    - Normal boot: `./bin/boot`
