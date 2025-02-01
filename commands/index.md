@@ -1,6 +1,7 @@
 ---
 name: Commands
 layout: default
+nav_order: 3
 ---
 
 # Command Definitions & Usage

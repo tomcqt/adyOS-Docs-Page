@@ -1,6 +1,8 @@
 ---
 name: Echo
 layout: default
+parent: Commands
+nav_order: 1
 ---
 
 # Command Definitions & Usage
