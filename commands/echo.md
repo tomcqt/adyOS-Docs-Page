@@ -13,4 +13,4 @@ nav_order: 1
   - Outputs the text that you give it.
 - Usage
   - `echo [text]`
-  - Replace `[text]` with the text that you want to output.
+    - Replace `[text]` with the text that you want to output.
