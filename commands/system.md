@@ -5,7 +5,9 @@ parent: Commands
 layout: default
 ---
 
-# system
+# Command Definitions & Usage
+
+## system
 
 - Definition
   - Basically the system settings. Requires superuser access through (`super`)[https://ady.tomcat.sh/commands/super]
