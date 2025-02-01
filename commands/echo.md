@@ -2,7 +2,6 @@
 title: Echo
 layout: default
 parent: Commands
-nav_order: 1
 permalink: /commands/echo
 ---
 
@@ -15,3 +14,5 @@ permalink: /commands/echo
 - Usage
   - `echo [text]`
     - Replace `[text]` with the text that you want to output.
+- Aliases
+  - `echo`

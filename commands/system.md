@@ -1,6 +1,5 @@
 ---
 title: System
-nav_order: 2
 parent: Commands
 layout: default
 permalink: /commands/system
@@ -46,3 +45,5 @@ permalink: /commands/system
       - Disable
         - `super system users "[username]" super off`
         - Replace `[username]` with the username of the user you want to modify.
+- Aliases
+  - `system`
