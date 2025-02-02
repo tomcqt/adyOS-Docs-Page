@@ -12,6 +12,7 @@ permalink: /commands/optional/adypm
 - Definition
   - The package manager for adyOS.
   - Default repo can be found in the top links under "adyPM Default Repository Repo".
+  - This command is an _optional command_ and can only be used if enabled with `system`. <sub>[See `system`.](https://ady.tomcat.sh/commands/system)</sub>
 - Usage
   - Install a package.
     - `adypm +[package]`
