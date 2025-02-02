@@ -32,7 +32,7 @@ permalink: /commands/system
         - `super system locks signup off`
   - Optional Features
     - Applications
-      - AdyPM
+      - `adypm` <sub>(See `adypm`.)[https://ady.tomcat.sh/commands/optional/adypm]</sub>
         - Enable
           - `super system optional applications add adypm`
         - Disable
