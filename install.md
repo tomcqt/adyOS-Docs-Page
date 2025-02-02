@@ -15,10 +15,12 @@ permalink: /install
 
 3. Enter the folder with `cd adyos`.
 4. Set everything up by running `npm i`.
-5. Make the scripts executable using `chmod +x bin/*`.
+5. Make the scripts executable using `chmod +x bin/*`. <sub>This is not necessary if you are installing on Windows.</sub>
 6. Start it up!
-
-   - Normal boot: `./bin/boot`
-   - Debug mode boot: `./bin/debug`
+   - On Linux
+     - Normal boot: `./bin/boot`
+     - Debug mode boot: `./bin/debug`
+   - On Windows - Normal boot: `npm run boot` - Debug mode boot: `npm run debug`
+     <sub>Note: On Windows you can not clear the screen on Git Bash.</sub>
 
 ### You have now installed adyOS!
