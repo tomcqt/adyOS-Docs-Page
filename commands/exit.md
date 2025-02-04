@@ -16,3 +16,4 @@ layout: default
 - Aliases
   - `exit`
   - `quit`
+  - `power sign out` <sub>[See `power`.](https://ady.tomcat.sh/commands/power)</sub>

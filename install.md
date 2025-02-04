@@ -20,7 +20,9 @@ permalink: /install
    - On Linux
      - Normal boot: `./bin/boot`
      - Debug mode boot: `./bin/debug`
-   - On Windows - Normal boot: `npm run boot` - Debug mode boot: `npm run debug`
-     <sub>Note: On Windows you can not clear the screen on Git Bash.</sub>
+   - On Windows
+     - Normal boot: `npm run boot`
+     - Debug mode boot: `npm run debug`
+<br><sub>Note: You can't clear the screen if running within Git Bash on Windows.</sub>
 
 ### You have now installed adyOS!
