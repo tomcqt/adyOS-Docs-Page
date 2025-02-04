@@ -15,4 +15,4 @@ layout: default
   - `leave`
 - Aliases
   - `leave`
-  - `enter ..` <sub>[See `enter`.](https://ady.tomcat.sh/commands/enter)</sub>
+  - `enter ..` <sub>[See `enter`.](https://docs.ady.best/commands/enter)</sub>

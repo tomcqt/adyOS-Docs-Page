@@ -10,7 +10,7 @@ permalink: /commands/system
 ## system
 
 - Definition
-  - Basically the system settings. Requires superuser access through `super` <sub>[More on `super`.](https://ady.tomcat.sh/commands/super)</sub>
+  - Basically the system settings. Requires superuser access through `super` <sub>[More on `super`.](https://docs.ady.best/commands/super)</sub>
 - Usage
   - System Info
     - System Name
@@ -32,7 +32,7 @@ permalink: /commands/system
         - `super system locks signup off`
   - Optional Features
     - Applications
-      - `adypm` <sub>[See `adypm`.](https://ady.tomcat.sh/commands/optional/adypm)</sub>
+      - `adypm` <sub>[See `adypm`.](https://docs.ady.best/commands/optional/adypm)</sub>
         - Enable
           - `super system optional applications add adypm`
         - Disable

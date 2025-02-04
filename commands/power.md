@@ -14,9 +14,9 @@ permalink: /commands/power
 - Usage
   - Power off.
     - `power off`
-    - Can also be done with `shutdown` <sub>[See `shutdown`.](https://ady.tomcat.sh/commands/shutdown)</sub>
+    - Can also be done with `shutdown` <sub>[See `shutdown`.](https://docs.ady.best/commands/shutdown)</sub>
   - Log out.
     - `power sign out`
-    - Can also be done with `exit`. <sub>[See `exit`.](https://ady.tomcat.sh/commands/exit)</sub>
+    - Can also be done with `exit`. <sub>[See `exit`.](https://docs.ady.best/commands/exit)</sub>
 - Aliases
   - `power`

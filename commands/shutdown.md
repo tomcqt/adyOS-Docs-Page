@@ -15,4 +15,4 @@ layout: default
   - `shutdown`
 - Aliases
   - `shutdown`
-  - `power off` <sub>[See `power`.](https://ady.tomcat.sh/commands/power)</sub>
+  - `power off` <sub>[See `power`.](https://docs.ady.best/commands/power)</sub>
