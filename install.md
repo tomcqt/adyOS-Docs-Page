@@ -10,8 +10,8 @@ permalink: /install
 1. Download and install `git`, `node`, and `npm` for your operating system.
 2. Clone version that you want.
 
-   - Production: `git clone -b prod https://git.tomcat.sh/adyos`
-   - Developer: `git clone https://git.tomcat.sh/adyos`
+   - Production: `git clone -b prod https://git.ady.best`
+   - Developer: `git clone https://git.ady.best`
 
 3. Enter the folder with `cd adyos`.
 4. Set everything up by running `npm i`.
@@ -23,6 +23,6 @@ permalink: /install
    - On Windows
      - Normal boot: `npm run boot`
      - Debug mode boot: `npm run debug`
-<br><sub>Note: You can't clear the screen if running within Git Bash on Windows.</sub>
+       <br><sub>Note: You can't clear the screen if running within Git Bash on Windows.</sub>
 
 ### You have now installed adyOS!
