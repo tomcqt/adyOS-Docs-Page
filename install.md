@@ -8,15 +8,17 @@ permalink: /install
 # adyOS Installation
 
 1. Download and install `git`, `node`, and `npm` for your operating system.
-2. Clone version that you want.
+   - Debian/Ubuntu: `sudo apt-get install git nodejs npm`
+   - Please use Google if your operating system is not on the list.
+3. Clone version that you want.
 
    - Production: `git clone -b prod https://git.ady.best/ adyos`
    - Developer: `git clone https://git.ady.best/ adyos`
 
-3. Enter the folder with `cd adyos`.
-4. Set everything up by running `npm i`.
-5. Make the scripts executable using `chmod +x bin/*`. <sub>This is not necessary if you are installing on Windows.</sub>
-6. Start it up!
+4. Enter the folder with `cd adyos`.
+5. Set everything up by running `npm i`.
+6. Make the scripts executable using `chmod +x bin/*`. <sub>This is not necessary if you are installing on Windows.</sub>
+7. Start it up!
    - On Linux
      - Normal boot: `./bin/boot`
      - Debug mode boot: `./bin/debug`
