@@ -10,8 +10,8 @@ permalink: /install
 1. Download and install `git`, `node`, and `npm` for your operating system.
 2. Clone version that you want.
 
-   - Production: `git clone -b prod https://git.ady.best`
-   - Developer: `git clone https://git.ady.best`
+   - Production: `git clone -b prod https://git.ady.best/ adyos`
+   - Developer: `git clone https://git.ady.best/ adyos`
 
 3. Enter the folder with `cd adyos`.
 4. Set everything up by running `npm i`.
