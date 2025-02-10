@@ -9,8 +9,6 @@ echo -e "Are you sure you want to install? [y/N]"
 while true; do
   read -rsn1 input0
   if [ "$input0" = "y" ]; then
-    echo -e "Installing...\n"
-    sleep .5
     break
   else
     echo -e "Aborting."
@@ -23,6 +21,9 @@ read -r installdir
 if [ "$installdir" = "" ]; then
   installdir="adyos"
 fi
+
+echo -e "Installing...\n"
+sleep .5
 
 echo -e "Searching for package manager...\n"
 sleep .5
