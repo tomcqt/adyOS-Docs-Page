@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo -e "Loading installer...\n"
+sleep 1
+
 echo -e "adyOS Install Script\n"
 echo -e "Are you sure you want to install? [y/N]"
 while true; do
