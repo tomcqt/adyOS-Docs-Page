@@ -20,66 +20,66 @@ done
 
 echo -e "Searching for package manager...\n"
 sleep .5
-if [[ ! -z $(which apt-get) ]]; then
+if [[ ! -z $(which apt-get 2> /dev/null) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
-  apt-get update
+  sudo apt-get update
 
   echo -e "Installing \"git\"...\n"
   sleep .5
-  apt-get install -y git
+  sudo apt-get install -y git
 
   echo -e "Installing \"Node.JS\"...\n"
   sleep .5
-  apt-get install -y nodejs
+  sudo apt-get install -y nodejs
 
   echo -e "Installing \"npm\"...\n"
   sleep .5
-  apt-get install -y npm
-elif [[ ! -z $(which pacman) ]]; then
+  sudo apt-get install -y npm
+elif [[ ! -z $(which pacman 2> /dev/null) ]]; then
   echo -e "Updating system...\n"
   sleep .5
-  pacman -Syu
+  sudo pacman -Syu
 
   echo -e "Installing \"git\"...\n"
   sleep .5
-  pacman -S git -y
+  sudo pacman -S git -y
 
   echo -e "Installing \"Node.JS\"...\n"
   sleep .5
-  pacman -S nodejs -y
+  sudo pacman -S nodejs -y
   
   echo -e "Installing \"npm\"...\n"
   sleep .5
-  pacman -S npm -y
-elif [[ ! -z $(which yum) ]]; then
+  sudo pacman -S npm -y
+elif [[ ! -z $(which yum 2> /dev/null) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
-  yum update
+  sudo yum update
 
   echo -e "Installing \"git\"...\n"
   sleep .5
-  yum install -y git
+  sudo yum install -y git
 
   echo -e "Installing \"Node.JS\"...\n"
   sleep .5
-  yum install -y nodejs
+  sudo yum install -y nodejs
   
   echo -e "Installing \"npm\"...\n"
   sleep .5
-  yum install -y npm
-elif [[ ! -z $(which dnf) ]]; then
+  sudo yum install -y npm
+elif [[ ! -z $(which dnf 2> /dev/null) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
-  dnf upgrade --refresh
+  sudo dnf upgrade --refresh
 
   echo -e "Installing \"git\"...\n"
   sleep .5
-  dnf install git-all -y
+  sudo dnf install git-all -y
 
   echo -e "Installing \"Node.JS\" & \"npm\"...\n"
   sleep .5
-  dnf install nodejs
+  sudo dnf install nodejs
 else
   echo -e "Could not install packages! Aborting..."
   exit 1
