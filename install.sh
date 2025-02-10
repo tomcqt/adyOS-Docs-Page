@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo -e "Loading installer...\n"
-sleep 1
+# wowie its the adyos install script
+# hello anyone reading this
+# its not malicious at all, you can check!
 
 echo -e "adyOS Install Script\n"
 echo -e "Are you sure you want to install? [y/N]"
