@@ -118,7 +118,7 @@ while true; do
   fi
 done
 
-cd adyos
+cd "$installdir"
 
 echo -e "Initialising...\n"
 sleep .5
