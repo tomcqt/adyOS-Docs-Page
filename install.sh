@@ -66,6 +66,18 @@ elif [[ ! -z $(which yum) ]]; then
   echo -e "Installing \"npm\"...\n"
   sleep .5
   yum install -y npm
+elif [[ ! -z $(which dnf) ]]; then
+  echo -e "Updating repositories...\n"
+  sleep .5
+  dnf upgrade --refresh
+
+  echo -e "Installing \"git\"...\n"
+  sleep .5
+  dnf install git-all -y
+
+  echo -e "Installing \"Node.JS\" & \"npm\"...\n"
+  sleep .5
+  dnf install nodejs
 else
   echo -e "Could not install packages! Aborting..."
   exit 1
