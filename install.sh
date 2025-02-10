@@ -18,6 +18,12 @@ while true; do
   fi
 done
 
+echo -e "Directory to install to (Press [Enter] to use \"adyos\"): "
+read -rs installdir
+if [ "$installdir" = "" ]; then
+  installdir="adyos"
+fi
+
 echo -e "Searching for package manager...\n"
 sleep .5
 if [[ ! -z $(which apt-get 2> /dev/null) ]]; then
@@ -91,7 +97,7 @@ while true; do
   if [ "$input" = "y" ]; then
     echo -e "Cloning production repository...\n"
     sleep .5
-    git clone -b prod https://git.ady.best/ adyos
+    git clone -b prod https://git.ady.best/ "$installdir"
     break
   elif [ "$input" = "n" ]; then
     echo -e "Would you like to use the development version? [y/n]"
@@ -100,7 +106,7 @@ while true; do
       if [ "$input2" = "y" ]; then
         echo -e "Cloning development repository...\n"
         sleep .5
-        git clone -b master https://git.ady.best/ adyos
+        git clone -b master https://git.ady.best/ "$installdir"
         break
       elif [ "$input" = "n" ]; then
         echo -e "Can't clone repostory. Quitting..."
