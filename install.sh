@@ -13,11 +13,13 @@ while true; do
     sleep .5
     break
   else
-    echo -e "Quitting."
+    echo -e "Aborting."
     exit 1
   fi
 done
 
+echo -e "Searching for package manager...\n"
+sleep .5
 if [[ ! -z $(which apt-get) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
