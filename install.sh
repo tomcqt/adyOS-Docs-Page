@@ -19,7 +19,7 @@ while true; do
 done
 
 echo -e "Directory to install to (Press [Enter] to use \"adyos\"): "
-read -rs installdir
+read -r installdir
 if [ "$installdir" = "" ]; then
   installdir="adyos"
 fi
