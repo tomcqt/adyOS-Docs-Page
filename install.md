@@ -9,8 +9,8 @@ permalink: /install
 
 - Linux
    1. Run the install script.
-      - With `curl`: `curl -sL https://install.ady.best/ | sudo bash -s`
-      - With `wget`: `wget -O - https://install.ady.best/ | sudo bash -s`
+      - With `curl`: `bash <(curl -sL https://install.ady.best/)`
+      - With `wget`: `bash <(wget -O - https://install.ady.best/)`
    2. Enter the directory with `cd adyos`
    3. Start it up!
       - Normal boot: `./bin/boot`
