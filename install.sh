@@ -23,7 +23,7 @@ sleep .5
 if [[ ! -z $(which apt-get 2> /dev/null) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
-  sudo apt-get update
+  sudo apt-get update -y
 
   echo -e "Installing \"git\"...\n"
   sleep .5
@@ -55,7 +55,7 @@ elif [[ ! -z $(which pacman 2> /dev/null) ]]; then
 elif [[ ! -z $(which yum 2> /dev/null) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
-  sudo yum update
+  sudo yum update -y
 
   echo -e "Installing \"git\"...\n"
   sleep .5
@@ -71,7 +71,7 @@ elif [[ ! -z $(which yum 2> /dev/null) ]]; then
 elif [[ ! -z $(which dnf 2> /dev/null) ]]; then
   echo -e "Updating repositories...\n"
   sleep .5
-  sudo dnf upgrade --refresh
+  sudo dnf upgrade --refresh -y
 
   echo -e "Installing \"git\"...\n"
   sleep .5
@@ -79,7 +79,7 @@ elif [[ ! -z $(which dnf 2> /dev/null) ]]; then
 
   echo -e "Installing \"Node.JS\" & \"npm\"...\n"
   sleep .5
-  sudo dnf install nodejs
+  sudo dnf install nodejs -y
 else
   echo -e "Could not install packages! Aborting..."
   exit 1
